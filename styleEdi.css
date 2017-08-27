@@ -1,0 +1,255 @@
+/*
+Theme Name: Student blog
+Author: Lucas Chae
+Version: 2.0
+*/
+
+body {
+    color: black;
+    font-family: 'Lato'
+}
+
+p {
+    text-align: justify;
+    color: black;
+    font-family: 'Lato';
+    font-size:16px;
+    
+}
+
+p.footer {
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Lato';
+
+    
+}
+
+h2.borderstyle {
+    border: 1px solid white;
+}
+
+.highlight {
+    background-color:white;
+    color: black;
+    padding: 4px 10px 4px 10px;
+}
+
+.subtitle {
+     padding-top: 30px;
+text-align: center;
+}
+.center {
+    text-align: center;
+}
+
+.xlarge {
+    font-size: 6.5vw;
+    font-family: 'Lato';
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: white;
+}
+
+#changeText {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+}
+
+
+
+.col-xs-3 {
+    padding-left:0;
+    padding-right:0;
+}
+
+.blog-footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: dimgrey;
+    border-top: 1px solid #e5e5e5;
+}
+
+.site-header {
+    text-align: center
+}
+
+
+
+
+
+.white {
+    background-color: white;
+    opacity: 0.7;
+}
+
+.grey-overlay {
+    background-color: white;
+    opacity: 0.8;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    min-height: 500px;
+}
+
+.title-padding {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-padding {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    text-align: justify;
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 990px;
+    }
+}
+
+.menubar {
+    background-color: black;
+    padding-top:10px;
+    padding-bottom:10px;
+    
+    font-family: 'Lato';
+    font-size: 20px;
+    color: white;
+}
+
+.topBotomBordersOut li {
+    display: inline;
+    color: #FFF;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-size: 20px;
+    color: white;
+}
+div.col-md-12 {
+    padding-left:0;
+    padding-right:0;
+}
+
+.nav-title {
+    padding-top: 30px;
+   text-decoration: none;
+    color: white;
+    background-color: black; /* Grey background color */
+    font-size: 20px;
+    display: block; /* Make the links appear below each other */
+   
+    text-decoration: none; 
+    text-align: center
+}
+
+.childNav {
+    background-color: black;
+    padding-bottom: 50px;
+    
+}
+
+div.childNav a{
+    text-decoration: none;
+    color: white;
+    background-color: black; /* Grey background color */
+
+    border-bottom: 1px solid white;
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; 
+  
+
+}
+
+div.childNav a:hover{
+    color: black;
+    background-color: white;
+    opacity: 0.7;
+    
+}
+
+div.childNav a.active {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; 
+}
+
+div.childNav ul {
+  list-style-type: none;
+}
+
+
+div.topBotomBordersOut a{
+    text-decoration: none;
+    font-family: 'Lato';
+    font-size: 20px;
+    color: white;
+    
+}
+div.topBotomBordersOut a:hover {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-size: 20px;
+    color: white;
+}
+
+div.topBotomBordersOut li:before, div.topBotomBordersOut li:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 3px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+    font-family: 'Lato';
+    font-size: 20px;
+    color: white;
+
+}
+
+div.topBotomBordersOut li:before
+{
+    top: 3px;
+    transform: translateY(10px);
+    font-family: 'Lato';
+    font-size: 20px;
+    color: white;
+    
+}
+
+div.topBotomBordersOut li:after
+{
+    bottom: 3px;
+    transform: translateY(-10px);
+    font-family: 'Lato';
+    font-size: 20px;
+    color: white;
+}
+
+div.topBotomBordersOut li:hover:before, div.topBotomBordersOut li:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+    font-family: 'Lato';
+    font-size: 20px;
+    color: white;
+}
+
